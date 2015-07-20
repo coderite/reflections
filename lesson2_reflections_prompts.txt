@@ -13,3 +13,5 @@ Situations: adding new features while keeping a working version available on the
 How do the diagrams help you visualize the branch structure?
 Diagrams show an easy visual representation of the commit sequences.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+We get a single branch that includes the history of both previous branches. The diagram flow remains intact which is why the diagrams are useful.
