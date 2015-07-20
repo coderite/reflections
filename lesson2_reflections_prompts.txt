@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+A .git file is added that enables files to be committed and tracked.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area offers offers a collection point and buffer zone and organized new additions in preparation for a new commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Once you have added files and think you are ready to commit, you can use git diff --staged to verify you only have 1 logical change you are commit. If you made other changes you can use the git reset --hard to revert any other changes (its like a final undo button).
