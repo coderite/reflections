@@ -6,3 +6,6 @@ The staging area offers offers a collection point and buffer zone and organized 
 
 How can you use the staging area to make sure you have one commit per logical change?
 Once you have added files and think you are ready to commit, you can use git diff --staged to verify you only have 1 logical change you are commit. If you made other changes you can use the git reset --hard to revert any other changes (its like a final undo button).
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Situations: adding new features while keeping a working version avaialble on the master branch. Creating different version while keeping the original intact.
